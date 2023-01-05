@@ -9,7 +9,7 @@ google-ID: ''
 menu: 
   - name: Featured Projects
     submenu:
-      - name: MicroBam
+      - name: Genomics
         link: /projects/Genomics
       - name: Transcriptomes
         link: /projects/transcriptomes
