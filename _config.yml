@@ -16,10 +16,9 @@
 title:  Tech Blog
 name:  Tech Blog
 description: 
-  This is a blog of someone passionate about technology who wants to share some of the things he knows
-  about Application Development, Integration, Cloud, Big Data and Digital Transformation
+  This is personal site to share omics data analysis related info.
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username:  alainpham
+github_username:  whiteorchid
 
 # jekyll-paginate configuration
 paginate: 10
