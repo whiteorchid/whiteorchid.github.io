@@ -14,25 +14,25 @@ comments: true
 <body>
 	<h1>Single-Cell RNA Sequencing Data Analysis</h1>
 	<p>Single-cell RNA sequencing (SCRNAseq) is a powerful tool for studying gene expression at the single-cell level. It allows researchers to investigate the diversity of cell types within a tissue and to understand how gene expression changes across different developmental stages or in response to various stimuli.</p>
-	<h2>Steps in ScRNAseq Data Analysis</h2>
+	<h2>Steps in scRNAseq Data Analysis</h2>
 	<ol>
 		<li>Preprocessing and quality control</li>
-		<p>Before analyzing ScRNAseq data, it is important to ensure that the data are of high quality. This includes checking for issues such as low sequencing depth, batch effects, and outliers. Preprocessing steps may include filtering cells and genes, normalizing expression levels, and removing technical artifacts.</p>
+		<p>Before analyzing scRNAseq data, it is important to ensure that the data are of high quality. This includes checking for issues such as low sequencing depth, batch effects, and outliers. Preprocessing steps may include filtering cells and genes, normalizing expression levels, and removing technical artifacts.</p>
 		<li>Dimensionality reduction and clustering</li>
 		<p>ScRNAseq data can have thousands of genes measured for each cell, making it difficult to visualize and interpret. Dimensionality reduction techniques, such as principal component analysis (PCA) or t-SNE, can be used to reduce the number of dimensions to two or three, making it easier to visualize the data. Clustering algorithms can then be used to group cells with similar gene expression patterns together.</p>
 		<li>Gene expression analysis</li>
 		<p>Once cells have been grouped into clusters, researchers can compare the expression levels of specific genes or pathways between different clusters to identify which genes are differentially expressed. This can help to identify the cell types present within the tissue and to understand how gene expression changes between different cell types or in response to different stimuli.</p>
-      <li> Pseudotime/trajectory analysis</li>
+      		<li> Pseudotime/trajectory analysis</li>
       <p>
       The “pseudotime” is defined as the positioning of cells along the trajectory that quantifies the relative activity or progression of the underlying biological process. For example, the pseudotime for a differentiation trajectory might represent the degree of differentiation from a pluripotent cell to a terminal state where cells with larger pseudotime values are more differentiated. This metric allows us to tackle questions related to the global population structure in a more quantitative manner. </p>
 	</ol>
 	<h2>Tools for scRNAseq Data Analysis</h2>
 	<p>There are many software tools available for analyzing scRNAseq data, including:</p>
 	<ul>
-      <li>Cellranger</li>
+      		<li>Cellranger</li>
 		<li>Seurat</li>
 		<li>Monocle</li>
-      <li>scVelo</li>
+      		<li>scVelo</li>
 		<li>...</li>
 		
 	</ul>
