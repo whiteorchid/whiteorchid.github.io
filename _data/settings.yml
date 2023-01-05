@@ -7,12 +7,16 @@ disqus:
 google-ID: ''
 
 menu: 
-  - name: Featured Projects
+  - name: Topics
     submenu:
       - name: Genomics
         link: /projects/Genomics
       - name: Transcriptomes
         link: /projects/transcriptomes
+      - name: Proteomics
+        link: /projects/proteomics
+      - name: Omics integration
+        link: /projects/omics_integration        
   - name: Posts
     link: /
   - name: Tags
