@@ -20,7 +20,7 @@ menu:
   - name: Posts
     submenu:
       - name: scRNAseq
-        link: /projects/scrnaseq
+        link: /notes/scrnaseq
     
     
   - name: Tags
