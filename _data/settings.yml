@@ -18,7 +18,10 @@ menu:
       - name: Omics integration
         link: /projects/omics_integration        
   - name: Posts
-    link: /
+    submenu:
+    - name: scRNAseq
+    link: /_posts/scrnaseq
+    
   - name: Tags
     link: /tags
   - name: About
