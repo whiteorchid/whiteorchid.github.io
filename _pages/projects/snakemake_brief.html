@@ -1,0 +1,26 @@
+<h1>Introduction to Snakemake</h1>
+<p>Snakemake is a powerful and flexible workflow management system that allows users to create and execute complex workflows in a reproducible and efficient manner. It is particularly useful for bioinformatics and computational biology applications, but can be applied to any field that requires the coordination of multiple tasks and the management of large amounts of data.</p>
+
+<ul>
+  <li> correct order of each task</li>
+  <li> parallel execution of tasks, MPI support</li>
+  <li> container support to easy deploy the softwares by Docker, Singularity, Conda...</li>
+  <li> Wrappers, allows to have re-usable wrapper scripts around </li>
+  <li> External scripts support : Python, R, Bash,  </li>
+ 
+ </ul> 
+  
+<p>Below is an example of bwa mapping :</p>
+  
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">rule</span> <span class="n">bwa_map</span><span class="p">:</span>
+    <span class="n">input</span><span class="n">:</span>
+        <span class="n">"data/genome.fa"</span><span class="n">,</span> 
+       <span class="s2"> "data/samples/A.fastq"</span>
+    <span class="n">output</span><span class="p">:</span> <span class="s2">"path/to/outputfile"</span><span class="p">,</span> 
+        <span class="s2">"mapped_reads/A.bam"</span>
+    <span class="n">shell</span><span class="p">:</span>
+        <span class="s2">"bwa mem {input} | samtools view -Sb - > {output}</span><span class="s2">"</span>
+</pre></div>
+</div>
+  <br>
+<p> The first step is to go to snakemake's website follow the best practice to start ===> <a href="https://snakemake.readthedocs.io/en/stable/index.html">Snakemake </p>
