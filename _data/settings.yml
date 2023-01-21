@@ -21,6 +21,8 @@ menu:
     submenu:
       - name: scRNAseq
         link: /projects/scrnaseq
+      - name: snakemake
+        link: /projects/snakemake_brief
     
     
   - name: Tags
