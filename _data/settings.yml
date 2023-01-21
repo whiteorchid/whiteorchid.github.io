@@ -23,7 +23,8 @@ menu:
         link: /projects/scrnaseq
       - name: snakemake
         link: /projects/snakemake_brief
-    
+      - name: Heterogeneity_rnaseq
+        link: /projects/hetero_rnaseq
     
   - name: Tags
     link: /tags
